@@ -1,17 +1,124 @@
+.main {
 
-.uploader{
+    /* Rectangle 230 */
+
+    position: absolute;
+    width: 402px;
+    height: 469px;
+    left: 38vw;
+    top: 30vh;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.uploader {
     /* Rectangle 231 */
 
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-position: absolute;
-width: 338px;
-height: 218.9px;
-left: 551.82px;
-top: 427.97px;
+    /* position: relative; */
+    width: 338px;
+    height: 218.9px;
+    margin: 4rem auto 0 auto;
 
-background: #F6F8FB;
-border: 1px dashed #97BEF4;
-border-radius: 12px;
+    background: #F6F8FB;
+    border: 1px dashed #97BEF4;
+    border-radius: 12px;
+}
+
+.main-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    margin: 1rem 8rem;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.main .para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+
+.uploader .heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    margin: 0 30%;
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+.img-box {
+    width: 115px;
+    height: 88px;
+    background: #BDBDBD;
+    margin: 2rem 7rem;
+}
+.common-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.035em;
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+
+.btn {
+    /* Blue 1 */
+
+background: #2F80ED;
+border-radius: 8px;
+border: none;
+margin: 0 9.5rem;
+
+}
+
+.btn-text{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.035em;
+
+color: #FFFFFF;
+padding: 0.3rem 1rem;
+}
+.btn:hover{
+    cursor: pointer;
 }
