@@ -1,0 +1,17 @@
+
+.uploader{
+    /* Rectangle 231 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 338px;
+height: 218.9px;
+left: 551.82px;
+top: 427.97px;
+
+background: #F6F8FB;
+border: 1px dashed #97BEF4;
+border-radius: 12px;
+}
